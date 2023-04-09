@@ -1,0 +1,81 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.container {
+    width: 1920px;
+    margin: 0 auto;}
+.head {
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 120%;
+    text-align: center;
+    color: #2B2C54;}
+.smallhead {
+    margin-top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #2B2C54;
+    opacity: 0.7;}
+.head::after {
+
+    content: "";
+    background: url(../images/Circle.png) no-repeat;
+    width: 522px;
+    height: 120px;
+    display: block;
+    margin-top: -93px;
+    margin-left: 600px;}
+.woman {
+    width: 825px;
+    height: 560px;
+    background: url(../images/violent.png) no-repeat;
+    background: url(../images/woman.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 226px 183px 138px 41px;
+    color: white;
+    margin-top: 48px;}
+
+h5 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;}
+h3 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 120%;
+margin-top: 10px;}
+p {font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+margin-top: 10px;}
+.young {
+    width: 825px;
+    height: 560px;
+    background: url(../images/violent.png);
+    display: flex;
+    flex-direction: column;
+    padding: 226px 183px 138px 41px;
+    color: white;
+    margin-top: 48px;}
+.common {display: flex;
+         justify-content: space-evenly;}
+.cover {
+width: 826px;
+height: 560px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(21, 22, 62, 0.4);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
