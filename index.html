@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        body {background-image: url(sf49.jpg);
-            background-size: cover;
+        body {background: url(sf49.jpg) no-repeat;
         height: 1000px;
-         width: 800px;}
+         width: 1000px;}
         a {color: aqua;}
         h1,h3 {color: white;}
         span {color: greenyellow;
               font-weight: bolder;}
-        .tidy {display: flex; justify-content: space-around;}
+        .left_collom {width: 300px;}
+        .central_collom {width: 300px;}
+        .main {display: flex;}
+        
     </style>
  
     <title>Document</title>
 </head>
 <body>
+    <div class="main">
+    <div class="left_collom">
     <div>
     <h3>01_HTML</h3>
     <a href="Home/01_HTML/Base/DIARY.html" target="_blank">DIARY</a><span>- cheked</span><br>
@@ -45,7 +49,9 @@
     <a href="Home/02_CSS/Add/NoCut.html" target="_blank">No_Cut</a><span>- cheked</span><br>
     <a href="Home/02_CSS/Add/Tefal.html" target="_blank">Tefal</a><span>- cheked</span><br>
     <a href="Home/02_CSS/Add/Cards.html" target="_blank">Cards</a><br>
-    </div>
+    </div> </div>
+
+    <div class="central_collom">
     <div>
     <h3>03_CSS</h3>
     <a href="Home/03_CSS/Base/TABL.html" target="_blank">TABL</a><span>- cheked</span><br>
@@ -62,9 +68,10 @@
     </div>
     <div>
     <h3>05_CSS</h3>
-        
-    </div>
-    
+    <a href="Home/05_CSS/Base/ADAPT.html" target="_blank">ADAPT</a><br>
 
+    </div>
+    </div>
+    </div>
 </body>
 </html>
